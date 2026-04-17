@@ -1,0 +1,6 @@
+tample letreals | strings in js 
+ues back tick instead of duole cots 
+`` -- backtricks 
+""-- duolecots
+
+when

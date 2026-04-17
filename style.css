@@ -1,0 +1,95 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+.bd {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main container */
+main {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    border-style: solid;
+    
+}
+
+/* Input section */
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Input field */
+#input_el {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+#input_el:focus {
+    border-color: #4facfe;
+    box-shadow: 0 0 5px #4facfe;
+}
+
+/* Buttons */
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Add button */
+.b1 {
+    background: #4facfe;
+    color: white;
+}
+
+.b1:hover {
+    background: #007bff;
+}
+
+/* Clear button */
+.b2 {
+    background: #ff4d4d;
+    color: white;
+}
+
+.b2:hover {
+    background: #cc0000;
+}
+
+/* Info box */
+.info {
+    margin-top: 15px;
+    height: 120px;;
+    padding: 10px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Optional JS container */
+.js {
+    display: none;
+}

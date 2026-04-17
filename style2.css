@@ -1,0 +1,147 @@
+/* Reset */
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body */
+.bd {
+  background: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Navbar */
+header nav {
+  width: 100%;
+  background: #333;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header nav a:hover {
+  color: yellow;
+}
+
+/* Main container */
+main {
+  margin-top: 40px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+  background-image: ;
+}
+
+/* Input + buttons */
+.body {
+  margin-bottom: 20px;
+ 
+
+
+}
+
+
+
+#input_el {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.b1 {
+  background: green;
+  color: white;
+}
+
+.b2 {
+  background: red;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Date input */
+#input2 {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Info box */
+.info {
+  margin: 15px 0;
+  color: #333;
+  font-weight: bold;
+}
+#sec_2 {  
+ 
+  width: 100%;
+  height: 100vh;        /* full screen */
+  overflow-y: auto;
+}
+
+.nav{
+
+  display: flex;
+  gap: 400px ;
+  margin: 100px;
+ padding: 80px;
+ margin-top: -80px;
+  letter-spacing: 5px;
+}
+
+
+.bd {
+
+   background-image: url(image.jpg);
+}
+main {
+
+background-color: rgba(243, 243, 243, 0.384);
+border: 3px;
+border-style: groove;
+border-color: rgb(223, 127, 10);
+}
+ #sec_nav {
+
+  display: flexbox;
+border-radius: 30px;
+ margin-top: 10px; 
+width: 90%;
+height: 40px;
+background-image: url(image1.png);
+padding: 10px;
+
+ }
